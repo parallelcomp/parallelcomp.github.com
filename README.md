@@ -1,2 +1,2 @@
-parallelcomp.github.com
-=======================
+parallel.github.com
+===================
