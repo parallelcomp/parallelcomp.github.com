@@ -1,0 +1,254 @@
+  body {
+  background-color: #ffffaa;
+  font-family: "Times", serif;
+  font-family: "Verdana", sans-serif;
+  font-size:12.0pt;
+  font-weight: normal;
+  color: black;
+  line-height: 125%;
+  margin-right: 4%;
+  margin-left: 4%;
+  }
+  a:link    {color:#900B09; background-color:transparent}
+  a:visited {color:#900B09; background-color:transparent}
+  a:active  {color:#FF0000; background-color:transparent}
+  a:hover   {color:#FF0000; background-color:transparent}
+span.note{
+  color: red;
+  font-style: italic; font-weight: bold;
+}
+table.boxed
+{
+  font-family: "Georgia"; 
+	color: black;
+	font-size: 105%;
+	color: blue;
+  font-size: medium;
+  margin-left: 0.1cm;
+  margin-right: 0.1cm;
+  border-width: 3px;
+  border-style: solid;
+  padding: 0px;
+	width:90%;
+  }
+table.boxed tr
+{
+  margin-left: 5%; font-family: "Georgia"; 
+	color: black;
+	font-size: 105%;
+  font-size: medium;
+  margin-left: 0.2cm;
+  margin-right: 0.1cm;
+  padding: 6px;
+	width:90%;
+  }
+table.boxed td
+{
+  margin-left: 5%; font-family: "Georgia"; 
+	color: black;
+	font-size: 105%;
+  font-size: medium;
+  margin-left: 0.2cm;
+  margin-right: 0.1cm;
+  padding: 6px;
+	width:90%;
+  }
+table.boxed_tab
+{
+  margin-left: 15%; font-family: "Georgia"; 
+	color: black;
+	font-size: 105%;
+	color: blue;
+  font-size: medium;
+	border-collapse: collapse;
+  margin-left: 0.2cm;
+  margin-right: 0.1cm;
+  border-width: 1px;
+  border-style: solid;
+	background-color: white;
+  padding: 1px;
+	width:60%;
+  }
+table.boxed_tab tr
+{
+  margin-left: 15%; font-family: "Georgia"; 
+	color: black;
+	font-size: 100%;
+  font-size: medium;
+  margin-left: 0.2cm;
+  margin-right: 0.1cm;
+	border-style: none none none none;
+  padding: 1px;
+	width:90%;
+  }
+table.boxed_tab td
+{
+  margin-left: 15%; font-family: "Georgia"; 
+	color: black;
+	font-size: 100%;
+  font-size: medium;
+  margin-left: 0.2cm;
+  margin-right: 0.1cm;
+	background-color: rgb(255, 245, 238);
+	border-style: none none none none;
+  padding: 1px;
+	width:90%;
+  }
+menu.Roman li {
+  font-size: medium;
+  margin-left: 0.2cm;
+  margin-right: 0.1cm;
+  }
+div.boxx { border: solid; border-width: thin; width: 100%; }
+div.box {
+   background: rgb(204,224,255);
+    padding: 0.125em;
+		border-width: thin;
+		width: 20%
+  }
+ div.boxlong {
+   background: rgb(204,224,255);
+    padding: 0.125em;
+		border-width: thin;
+		width: 40%
+  }
+
+DIV.Tab
+{
+  border-right: #000000 2px solid;
+  border-left: #000000 2px solid;
+  border-top: #000000 2px solid;
+  border-bottom: #000000 1px solid;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 2px 2% 5px;
+	width:600px;
+  TEXT-TRANSFORM: none;
+  COLOR: #191970;
+  FONT-STYLE: normal;
+  FONT-FAMILY: Verdana, Arial;
+  BACKGROUND-COLOR: #b0c4de;
+  TEXT-ALIGN: left;
+  FONT-VARIANT: normal;
+  TEXT-DECORATION: none
+}
+DIV.TabLong
+{
+  BORDER-RIGHT: #000000 2px solid;
+  PADDING-RIGHT: 2px;
+  BORDER-TOP: #000000 2px solid;
+  PADDING-LEFT: 2px;
+  PADDING-BOTTOM: 2px;
+  MARGIN: 2px 2% 5px;
+	WIDTH:750px;
+  TEXT-TRANSFORM: none;
+  BORDER-LEFT: #000000 2px solid;
+  COLOR: #191970;
+  PADDING-TOP: 2px;
+  BORDER-BOTTOM: #000000 2px solid;
+  FONT-STYLE: normal;
+  FONT-FAMILY: Verdana, Arial;
+  BACKGROUND-COLOR: #b0c4de;
+  TEXT-ALIGN: left;
+  FONT-VARIANT: normal;
+  TEXT-DECORATION: none
+}
+DIV.TabLongLong
+{
+  BORDER-RIGHT: #000000 2px solid;
+  PADDING-RIGHT: 2px;
+  BORDER-TOP: #000000 2px solid;
+  PADDING-LEFT: 2px;
+  PADDING-BOTTOM: 2px;
+  MARGIN: 2px 2% 5px;
+	WIDTH:950px;
+  TEXT-TRANSFORM: none;
+  BORDER-LEFT: #000000 2px solid;
+  COLOR: #191970;
+  PADDING-TOP: 2px;
+  BORDER-BOTTOM: #000000 2px solid;
+  FONT-STYLE: normal;
+  FONT-FAMILY: Verdana, Arial;
+  BACKGROUND-COLOR: #b0c4de;
+  TEXT-ALIGN: left;
+  FONT-VARIANT: normal;
+  TEXT-DECORATION: none
+}
+
+p,li, ol { font-family: Georgia, Times New Roman, Times, serif;
+  margin-left: 0%; font-family: "Georgia"; 
+  font-size:12.0pt;
+	margin-right:0in;
+  font-weight: normal;
+	color: black;
+  line-height: 120%; margin-right: 5%;
+  background: #ffffaa;
+	}
+
+  div.Section1
+          {page:Section1;}
+  h1 {
+  font-family: "Arial"; text-align: center
+  }
+	h2 { font-family: Verdana, Arial, Helvetica, sans-serif;}
+	h2.center { font-family: Verdana, Arial, Helvetica, sans-serif; text-align: center }
+  h3,h4,h5,h6 { font-family: "Arial"; text-align: left }
+  TT {
+  font-family: Verdana, Arial, Helvetica, "Arial";
+  font-size:12.0pt;
+  font-weight: normal;
+	font-size: 90%;
+  }
+table{
+  margin-left: 5%; font-family: "Georgia"; 
+	color: black;
+	font-size: 105%;
+}
+  address {
+  font-size: medium; font-style: italic; text-align: right
+  }
+  a.mailto:link {
+  color: black; background-color: white
+  }
+  a.mailto:visited {
+  color: black; background-color: white
+  }
+  span.pendingduedate {
+  color: red
+  }
+  div.figure {
+  margin-left: auto; margin-right: auto; 
+  display: block; text-align: left;
+  width: 80%;
+  }
+  b.ex { font-family: "Georgia";
+	
+  font-size:12.0pt;
+	font-weight: normal; }
+  p.caption {
+    text-align: center;
+    font-family: "Georgia";
+    font-weight: bold;
+    font-size: 70%;
+    margin: 1.5em 20% 0 20%;
+  }
+	ol.Roman { list-style-type: upper-roman;
+		}
+	ol.Roman li { font-style: normal; }
+
+
+	ol.std { list-style-type: lower-roman;
+		}
+	ol.alpha { list-style-type: lower-alpha;
+		}
+	ol.Roman li { font-style: normal; }
+
+li.x { padding: 2px; margin: 0;}
+ul.x { padding: 4px; margin: 16px;}
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: square;}
+
+ol.c {list-style-type: upper-roman;}
+ol.d {list-style-type: lower-alpha;}
