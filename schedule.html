@@ -1,8 +1,6 @@
+<!--
 <html>
 <head>
-
-
-
 <title>Schedule</title>
 
 <style type="text/css">
@@ -10,7 +8,7 @@ body {
     font-family:"Helvetica";
     box-sizing: border-box;
     color:#373737;
-    /*background: #212121; --> */
+    
     font-size: 16px;
     font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -89,18 +87,18 @@ h6 {
 
 <body>
 
-<h1 align="center">High Performance Computing with Accelerators </h1>
-<h5 align="center">Summer 2012</h5>
+<h1 align="center">Parallel Computing </h1>
+<h5 align="center">Winter 2012</h5>
 <h4 align="center">Department of Mathematics and Computer Science</h4>
-<h4 align="center">Sri Sathya Sai Institute of Higher Learning, Prashanthi Nilayam, Puttaparthi</h4>
+<h4 align="center">Sri Sathya Sai Institute of Higher Learning, Prasanthi Nilayam, Puttaparthi</h4>
  <p align="center"> <img align = "center" src="images/swami.jpg" height = "200" width = "150" alt="Student Projects"><br> </p>
 
          <p align="center"> <a  href="http://www.sssihl.edu.in">SSSIHL Website</a> </p>
          <p align="center">
             <a href="index.html">Home</a> |
             <a href="schedule.html" target = "_blank">Schedule</a> |
-            <a href="http://piazza.com/class#summer2012/cs1302" target = "_blank">Piazza</a> |
-            <a href="https://docs.google.com/document/d/1TyRwlYgvQAw7aUfDFDdqug6vFwJ6uv_SXZtshsyo8D0/edit" target = "_blank">Student Work</a> </p>
+            <a href="https://piazza.com/class#fall2012/cs1202/" target = "_blank">Piazza</a> |
+            <a href="https://docs.google.com/document/d/1n4uryFOQ6n2nVYaqgpj3AKvtIE36Lia6VTmw2IrrJLU/edit" target = "_blank">Student Work</a> </p>
 
 
         
@@ -143,393 +141,740 @@ h6 {
     <td><p class="slidesEtc"><a href="materials/CUPTI_Users_Guide.pdf"> CUPTI User Guide, <br/><a href = "materials/Compute_Command_Line_Profiler_User_Guide.pdf">Profiler User Guide,<br/><a href="materials/MatrixTranspose.pdf"> Matrix Transpose. <br/><a href="http://people.maths.ox.ac.uk/gilesm/cuda/prac4/reduction.pdf"> Parallel Reduction. <br/> <a href="http://cis565-spring-2012.github.com/lectures/02-06-CUDA-Performance-1-of-2.ppt"> Parallel Reduction 2<br/> </p></td>
 </tr>
 
-<tr class="finishedClass">
-    <td>Thursday, 05th July</td>
-    <td> Lecture 5: <br/>Matrix Transpose on  GPU</td>
-    <td></td>
-    <td> <p class="slidesEtc"><a href="materials/02_multicore.pdf"> Multicore, <br/><a href = "materials/06_gpuprog.pdf"> GPU Programming,<br/><a href="materials/S0624-Monday-Introduction-to-CUDA-C.pdf"> Introduction to CUDA.<br/></p></td>
-   </tr> 
- <tr class="finishedClass">
-    <td>Friday, 27th June</td>
-    <td> Lecture 4 : <br/> Performance Optimization</td>
-    <td></td>
-    <td> <p class="slidesEtc"><a href="materials/2011_GTC2010.pdf"> Fundamental Optimizations, <br/><a href = "materials/volkov10-GTC.pdf"> Volkov Occupancy,</a> <br/>Analysis Driven Optimization (Not Covered In the Class, extra reading): <br/><a href="materials/ SC10_Analysis_Driven_Optimization.pdf"> Analysis Driven Optimization<br/><a href="materials/02-06-CUDA-Performance-1-of-2.ppt"> Cuda Performance ppt<br/> <a href="02-08-CUDA-Performance-2-of-2.pptx"> Cuda Performance 2<br/></p></td>
-</tr>
-
- <tr class="finishedClass">
-    <td>Friday, 20th June</td>
-    <td> Lecture 3:<br/> CUDA debugging and profiling tools (application optimization process)</td>
-    <td><p class ="slidesEtc"> Assignment 1: <a href="Assignments/Assignment1/Lab1.pdf">Lab1.pdf</a> <br/>
-    Download Tar: <a href=" Assignments/Assignment1/lab1.tar">Lab1.tar</a> <br/> <a href="materials/SC11_example_stencil.zip"> Example_stencil.zip <br/> <a href="http://developer.nvidia.com/content/supercomputing-2011"> SC11</p></td>
-    <td> <p class="slidesEtc"><a href="materials/SC11CUDATools.pdf">  SC11CUDATools.</p></td>
-</tr>
-
-
- <tr class="finishedClass">
-    <td>Monday, 16th June</td>
-    <td> Lecture 2 : Introduction to CUDA C</td>
-    <td></td>
-    <td><p class="slidesEtc"><a href="materials/S0624-Monday-Introduction-to-CUDA-C.pdf"> Introduction to CUDA C</p></td>
-</tr>
-
- <tr class="finishedClass">
-    <td>Friday, 7th June</td>
-    <td> Lecture 1: Modern multi-core architetcures:</td>
-    <td></td>
-    <td><p class="slidesEtc"><a href="materials/02_multicore.pdf"> Multicore.pdf <br/> <a href="materials/06_gpuprog.pdf"> GPU Programming.pdf</p></td>
-</tr>
-
-<!--
-
-<tr class="finishedClass">
-    <td>Monday, 01/23</td>
-    <td>GPU architecture overview
-    <p class="slidesEtc">
-    Slides: <a href="lectures/01-23-GPU-Overview-Kayvon.pdf">pdf</a> by <a href="http://www.cs.cmu.edu/~kayvonf/">Kayvon Fatahalian</a><br />
-    Source Control Primer Slides: <a href="lectures/01-23-Source-Control.ppt">ppt</a> | <a href="lectures/01-23-Source-Control.pdf">pdf</a><br />
-    Audio: <a href="lectures/01-23-GPU-Overview.wma">wma</a>
-    </p>    
-    </td><td>Patrick</td><td></td><td><a href="homeworks/Homework1.txt">HW 1. CPU and GPU Architecture</a></td>
-    <td>PMPP Chapter 1</td>
-</tr>
-<tr class="finishedClass">
-    <td>Wednesday, 01/25</td>
-    <td>Introduction to CUDA
-    <p class="slidesEtc">
-    Slides: <a href="lectures/01-25-CUDA-Intro-1-of-2.ppt">ppt</a> |
-            <a href="lectures/01-25-CUDA-Intro-1-of-2.pdf">pdf</a><br />
-    Audio: <a href="lectures/01-25-CUDA-Intro-1-of-2.wma">wma</a> (first 25 minutes)
-    </p>
-    </td><td>Patrick</td><td></td><td></td><td>PMPP Chapter 3</td>
-</tr>
-<tr class="finishedClass">
-    <td>Monday, 01/30</td>
-    <td>Introduction to CUDA
-    <p class="slidesEtc">
-    Slides: <a href="lectures/01-30-CUDA-Intro-2-of-2.ppt">ppt</a> |
-            <a href="lectures/01-30-CUDA-Intro-2-of-2.pdf">pdf</a><br />
-    Audio: <a href="lectures/01-30-CUDA-Intro-2-of-2.wma">wma</a>
-    </p>
-    </td><td>Patrick</td><td></td><td>H1 due<br/><a href="homeworks/Homework2.zip">HW 2. CUDA development</a></td><td>PMPP Chapters 4 and 5</td>
-</tr>
-<tr class="finishedClass">
-    <td>Wednesday, 02/01</td>
-    <td>Parallel Algorithms
-    <p class="slidesEtc">
-    Slides: <a href="lectures/02-01-Parallel-Algorithms.ppt">ppt</a> |
-            <a href="lectures/02-01-Parallel-Algorithms.pdf">pdf</a><br />
-    Audio: <a href="lectures/02-01-Parallel-Algorithms.wma">wma</a>
-    </p>
-    </td><td>Patrick</td><td></td>
-    <td><a href="homeworks/StudentPresentationTopics.pdf">Presentation Topics</a></td>
-    <td><a href="http://http.developer.nvidia.com/GPUGems3/gpugems3_ch39.html">Parallel Prefix Sum (Scan) with CUDA</a></td>
-</tr>
-<tr class="finishedClass">
-    <td>Monday, 02/06</td><td>
-    Parallel Algorithms
-    <p class="slidesEtc">
-    Slides: <a href="lectures/02-06-Parallel-Algorithms-Continued.ppt">ppt</a> |
-            <a href="lectures/02-06-Parallel-Algorithms-Continued.pdf">pdf</a><br />
-    </p>
-    <p>
-    CUDA Performance
-    <p class="slidesEtc">
-    Slides: <a href="lectures/02-06-CUDA-Performance-1-of-2.ppt">ppt</a> |
-            <a href="lectures/02-06-CUDA-Performance-1-of-2.pdf">pdf</a><br />
-    </p>
-    <p class="slidesEtc">
-    Audio: <a href="lectures/02-06.wma">wma</a>
-    </p>
-    </td><td>Patrick</td><td></td>
-    <td>Presentation Topics due 02/07</td><td>PMPP Chapter 6</td>
-</tr>
-<tr class="finishedClass">
-    <td>Wednesday, 02/08</td>
-    <td>CUDA Performance
-    <p class="slidesEtc">
-    Slides: <a href="lectures/02-08-CUDA-Performance-2-of-2.pptx">pptx</a> |
-            <a href="lectures/02-08-CUDA-Performance-2-of-2.pdf">pdf</a><br />
-    Audio: <a href="lectures/02-08-CUDA-Performance-2-of-2.wma">wma</a>
-    </p>
-    </td><td>Varun</td><td></td><td></td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Monday, 02/13</td>
-    <td>GPU Search and Map Reduce
-    <p class="slidesEtc">
-    Slides: <a href="lectures/02-13-Search-Tim-Kaldewey.pdf">search</a> |
-            <a href="lectures/02-13-MapReduce-Tim-Kaldewey.pdf">map reduce</a><br />
-    Audio: <a href="lectures/02-13.wma">wma</a>
-    </p>
-    </td><td>Guest lecture: <a href="http://www.kaldewey.com/">Tim Kaldewey</a></td><td></td><td>HW 2 due<br />HW 3. CUDA Performance</td>
-    <td>Handed out in class</td>
-</tr>
-<tr class="finishedClass">
-    <td>Wednesday, 02/15</td>
-    <td>GPU Computing Tools
-    <p class="slidesEtc">
-    Slides: <a href="lectures/02-15-GPU-Compute-Tools.pptx">pptx</a> |
-            <a href="lectures/02-15-GPU-Compute-Tools.pdf">pdf</a><br />
-    Audio: <a href="lectures/02-15-GPU-Compute-Tools.wma">wma</a>
-    </p>
-    </td><td>Varun</td><td></td><td></td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Monday, 02/20</td>
-	<td>Graphics Pipeline
-    <p class="slidesEtc">
-    Slides: <a href="lectures/02-20-Graphics-Pipeline.pptx">pptx</a> |
-            <a href="lectures/02-20-Graphics-Pipeline.pdf">pdf</a><br />
-    Audio: <a href="lectures/02-20-Graphics-Pipeline.wma">wma</a>
-    </p>
-	</td><td>Patrick</td><td></td><td></td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Wednesday, 02/22</td><td>Graphics Pipeline
-    <p class="slidesEtc">
-    Audio: <a href="lectures/02-22-Graphics-Pipeline.wma">wma</a>
-    </p>
-	</td><td>Patrick</td><td></td><td></td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Monday, 02/27</td><td>Project kickoff</td><td>Patrick</td><td>
-    <p>
-    GPU Ocelot Dynamic Compilation Framework<br />
-    <a href="http://www.cis.upenn.edu/~delozier/">Christian DeLozier</a>
-    </p>
-    <p>
-    Spatial Data Structures<br />
-    <a href="http://peterkutz.com/computergraphics/">Peter Kutz</a>
-    </p>
-	
-    </td><td>HW3 due<br /><a href="homeworks/FinalProject.pdf">Project release</a></td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Wednesday, 02/29</td><td>Graphics Pipeline
-    <p class="slidesEtc">
-    Audio: <a href="lectures/02-29-Graphics-Pipeline.wma">wma</a>
-    </p>
-	</td><td>Patrick</td><td>
-    <p>
-    Monte Carlo simulations on the GPU<br />
-    <a href="http://www.linkedin.com/pub/morteza-hakimi-siboni/26/631/a94">Morteza Hakimi</a>
-    </p>
-    <p>
-    OpenGL 4 and Tessellation Shaders<br />
-    <a href="http://lilleyse.carbonmade.com/">Sean Lilley</a>
-    </p>
-    </td><td></td><td></td>
-</tr>
-<tr class="noClass">
-    <td>Monday, 03/05</td><td>No class.  Spring Break.</td><td></td><td></td><td></td><td></td>
-</tr>
-<tr class="noClass">
-    <td>Wednesday, 03/07</td><td>No class.  Spring Break.</td><td></td><td></td><td></td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Monday, 03/12</td><td>Project Pitches</td><td></td><td></td><td>Project pitch due</td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Wednesday, 03/14</td><td>Introduction to GLSL
-    <p class="slidesEtc">
-    Slides: <a href="lectures/03-14-GLSL-Intro.pptx">pptx</a> |
-            <a href="lectures/03-14-GLSL-Intro.pdf">pdf</a><br />
-    Audio: <a href="lectures/03-14-GLSL-Intro.wma">wma</a>
-	</p>
-	</td><td>Patrick</td><td>
-    <p>
-    Computational Finance<br />
-    <a href="http://www.linkedin.com/pub/yuanhui-chen/3a/55a/1a4">Yuanhui Chen</a>
-    </p>
-    <p>
-    Noise<br />
-    Durgadas Venkatesh
-    </p>
-    </td><td></td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Monday, 03/19</td><td>Introduction to GLSL
-    <p class="slidesEtc">
-    Audio: <a href="lectures/03-19-GLSL-Intro.wma">wma</a>
-	</p>
-	</td><td>Patrick</td><td>
-    <p>
-    Video Encode/Decode<br />
-    <a href="http://www.linkedin.com/pub/philip-peng/33/a75/456">Philip Peng</a>
-    </p>
-    <p>
-    Game Console Architectures<br />
-    <a href="http://www.seas.upenn.edu/~yanzi/UPenn/Zi_Yan.html">Zi Yan</a>
-    </p>
-    </td><td>HW4. Globe shading</td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Wednesday, 03/21</td><td>Introduction to GLSL
-    <p class="slidesEtc">
-    Audio: <a href="lectures/03-21-GLSL-Intro.wma">wma</a>
-	</p>
-	</td><td>Patrick</td><td>
-    <p>
-    Artificial Intelligence<br />
-    Tao Lei
-    </p>
-    <p>
-    Anti-Aliasing<br />
-    <a href="http://vimeo.com/30407139">Adam Mally</a>
-    </p>
-    </td><td></td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Monday, 03/26</td><td>Introduction to OpenGL
-    <p class="slidesEtc">
-    Slides: <a href="lectures/03-26-OpenGL-Intro.pptx">pptx</a> |
-            <a href="lectures/03-26-OpenGL-Intro.pdf">pdf</a><br />
-    Audio: <a href="lectures/03-26-OpenGL-Intro.wma">wma</a>
-	</p>
-	</td><td>Patrick</td><td>
-    <p>
-    Collision Detection<br />
-    <a href="http://www.linkedin.com/pub/xing-du/3a/626/a23">Xing Du</a>
-    </p>
-    <p>
-    Relief Mapping<br />
-    <a href="http://ianlilley.wordpress.com/">Ian Lilley</a>
-    </p>
-    </td><td></td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Wednesday, 03/28</td><td>OpenGL Buffer Transfers
-    <p class="slidesEtc">
-    Slides: <a href="lectures/03-28-OpenGL-Buffer-Transfers.pptx">pptx</a> |
-            <a href="lectures/03-28-OpenGL-Buffer-Transfers.pdf">pdf</a><br />
-	</p>
-	</td><td>Patrick</td><td>
-    <p>
-    Cryptography<br />
-    <a href="http://www.linkedin.com/pub/jnana-prasanna-panuganti/21/4b0/b12">Jnana Panuganti</a>
-    </p>
-    </td><td></td><td>OpenGL Insights Chapter 28</td>
-</tr>
-
-
-
-<!--
-Fundamental Real-Time Shading Algorithms
-OpenGL Profiling and Performance
-Screen-Space and Deferred Shading
-Non-Photorealistic Rendering
--->
-<!--
-
-
-<tr class="finishedClass">
-    <td>Monday, 04/02</td><td>Project Midpoint Presentations</td><td></td><td></td><td>Project midpoint due<br />HW4 due<br/></td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Wednesday, 04/04</td><td>Project Midpoint Presentations</td><td></td><td>
-    <p>
-    Computer Vision<br />
-    <a href="https://www.grasp.upenn.edu/people/yu_luo">Yu Luo</a>
-    </p>
-    <p>
-    Skin Rendering<br />
-    <a href="http://alice-yang.com/">Alice Yang</a>
-    </p>
-    </td><td></td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Monday, 04/09</td><td>WebGL
-    <p class="slidesEtc">
-    Slides: <a href="lectures/04-09-WebGL.pptx">pptx</a> |
-            <a href="lectures/04-09-WebGL.pdf">pdf</a><br />
-    Audio: <a href="lectures/04-09-WebGL.wma">wma</a>
-	</p>
-	</td><td>Patrick</td><td>
-    <p>
-    GPU-Accelerated Kinect Processing<br />
-    <a href="https://sites.google.com/site/withjackniu/">Yedong Niu</a>
-    </p>
-    <p>
-    Fluid Simulation and Rendering<br />
-    <a href="http://www.linkedin.com/pub/yanjie-feng/3a/a35/8b8">Yanjie Feng</a>
-    </p>
-    </td><td>HW5. Image Processing</td><td>OpenGL Insights Chapter 3</td>
-</tr>
-<tr class="finishedClass">
-    <td>Wednesday, 04/11</td><td>Mobile GPUs
-    <p class="slidesEtc">
-    Slides: <a href="lectures/04-11-Mobile-GPUs.pptx">pptx</a> |
-            <a href="lectures/04-11-Mobile-GPUs.pdf">pdf</a><br />
-    Audio: <a href="lectures/04-11-Mobile-GPUs.wma">wma</a>
-	</p>
-	</td><td>Varun (Patrick out of town)</td><td>
-    <p>
-    GPU Ray Tracing<br />
-    <a href="http://www.seas.upenn.edu/~liudai/">Adair Liu</a>
-    </p>
-    <p>
-    Alternative Rendering Pipelines<br />
-    <a href="http://www.yiningkarlli.com/demoreel/">Karl Li</a>
-    </p>
-    </td><td></td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Monday, 04/16</td><td>Mobile Graphics
-    <p class="slidesEtc">
-    Slides: <a href="lectures/04-16-Mobile-Graphics.pptx">pptx</a> |
-            <a href="lectures/04-16-Mobile-Graphics.pdf">pdf</a><br />
-    Audio: <a href="lectures/04-16-Mobile-Graphics.wma">wma</a>
-	</p>
-	</td><td>Patrick</td><td>
-    <p>
-    Volume Rendering<br />
-    <a href="http://www.linkedin.com/in/prutsdomj">Nop Jiarathanakul</a>
-    </p>
-	<p>
-    Path Planning on the GPU<br />
-    <a href="http://www.linkedin.com/pub/zubeen-dedhia/18/5a4/b0a">Zubeen Dedhia</a>
-    </p>
-    </td><td>HW5 due</td><td>OpenGL Insights Chapters 22 and 23</td>
-</tr>
-<tr class="finishedClass">
-    <td>Wednesday, 04/18</td><td>Modern GPU Architectures
-    <p class="slidesEtc">
-    Slides: <a href="lectures/04-18-Modern-GPUs.pptx">pptx</a> |
-            <a href="lectures/04-18-Modern-GPUs.pdf">pdf</a><br />
-	</p>
-		</td><td>Varun</td><td></td><td>HW5 Quiz</td>
-    <td>PMPP Chapter 12</td>
-</tr>
-<tr class="noClass">
-    <td>Monday, 04/23</td><td>No class.</td><td></td><td></td><td></td><td></td>
-</tr>
-<tr class="finishedClass">
-    <td>Wednesday, 04/25</td><td>
-	<p>
-	Final Project Presentations<br />
-	9am-12pm, Towne 337<br />
-    One-on-one demos to follow<br />
-	</p>
-	</td>
-	<td></td><td></td><td>Take-home final</td><td></td>
-</tr>
-<tr>
-    <td>Tuesday, 05/01</td><td>
-	<p>
-	Final<br />
-	6-8pm, David Rittenhouse Lab A7<br />
-	Networking event immediately following<br />
-	</p>
-	</td>
-	<td></td><td></td><td>Take-home due</td><td></td>
-</tr>
-
--->	
 </table>    
 
+//-->
+
+<html>
+<head>
+<title> Parallel Computing (CS1202)  Schedule  (Winter 2012)</title>
+<link rel="stylesheet" type="text/css" href="style_boxes.css">
+</head>
+<body>
+<h2 align="center"> Parallel Computing Schedule (Winter 2013)</h2>
+
+<b>This schedule is subject to change, so check frequently</b>
+<p>
+
+<ul>
+
+<li> <b>Pacheco:</b>
+<em>An Introduction to Parallel Programming,</em>
+by Peter Pacheco, Morgan Kaufmann (2011).
+</li>
+
+<li> <b> Quinn </b>
+	<em> Parallel Programming in C with MPI and OpenMP </em>
+	by M Quinn
+</li>
+
+</ul>
+
+
+
+
+<p>
+
+<div class="Tab">
+<b>Lecture 1, 14th Nov  2012 (Wed):</b> Introduction
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec01.pdf">Lecture slides</a>
+<li><b>Today's reading:</b>
+<ul>
+<li> <em>Pacheco</em>:  Chapter 1 (ALL)</li>
+
+
+</tr>
+</td>
+</table>
+
+
+<!--
+<div class="TabLong">
+<b>Lecture 2, 1/12/12 (Thu):</b>
+Address space organization, shared memory, and
+Memory locality optimization.
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+</li>
+<li> <a href="./Lec02.pdf">Lecture slides</a>
+<li> <a href="../HW/A1/index.html">Programming Lab #1</a> 
+<li><b>Today's reading:</b>
+<ul>
+<li>
+<em>Pacheco,</em> Chapter 2: pp. 15-18 (&sect; 2.1), 32-37 (MIMD systems, shared memory
+interconnect), 43-46 (cache coherence, snooping cache and false sharing),
+Chapter 4 (pp. 151-153).
+<li><a href="http://www.cs.berkeley.edu/~demmel/cs267/lecture02.html"> Designing fast linear algebra kernels in the presence of memory hierarchies</a> Jim Demmel, UC Berkeley
+<li>
+For additional background material (optional) on shared memory architecture, consult
+Hennessy and Patterson, Computer Architecture A Quantitative Approach, Morgan
+Kaufmann. 3rd Ed.: Chapter 6, &sect;6.1, 6.3 or the 4th Ed., Chapter 4, .1-2,
+4.6. Also see
+<a href="http://www.nwo.nl/nwohome.nsf/pages/NWOA_7X8HXB_Eng"> Overview of Recent Supercomputers</a>, &sect; 2.1-2,2.4-2.5.  </li>
+</ul>
+</tr>
+</td>
+</table>
+<br/>
+
+<div class="TabLong">
+<b>Lecture 3, 1/17/12 (Tue):</b>  Stencil methods, Multicore programming 
+OpenMP
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec03.pdf">Lecture slides</a>
+<li><b>Today's reading:</b>
+<ul>
+<li> <a href="./Stencil.html">Reader on Stencil Methods</a> 
+<span class="note">Posted</span>
+</li>
+<li> <em>Pacheco,</em> Chapter 2: pp. 47-53</li>
+<li> <em>Pacheco,</em> Chapter 5: pp. 209-225 (through <b>The parallel for Directive</b>)
+</ul>
+<li> Additional Reading (optional)
+<ul>
+<li> OpenMP programming (practical)
+<ul>
+<li> <a
+href="http://software.intel.com/en-us/articles/getting-started-with-openmp">
+Getting Started with OpenMP</a>, Intel.  </li>
+<li> <a href="http://www.drdobbs.com/high-performance-computing/225702895#comments">
+OpenMP: A Portable Solution for Threading</a>, by Shameem Akhter and Jason
+Roberts, Dr. Dobb's Journal  (July 12, 2010).
+</li>
+</ul>
+<li> Multiprocessors and cache coherence:
+<Hennessy and Patterson, <em>Computer Architecture A Quantitative Approach,</em>
+Morgan Kaufmann. 4th Ed., §4.1-2 [on reserve at the S&amp;E Library].
+</li>
+</ul>
+</ul>
+</ul>
+</tr>
+</td>
+</table>
+<br/>
+
+<div class="TabLong">
+<b>Lecture 4, 1/19/12 (Thu):</b>
+More OpenMP; performance measurement and characterization.
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec04.pdf">Lecture slides</a> 
+<span class="note">Posted</span>
+</li>
+<li><b>Today's reading:</b>
+<ul>
+<li> <em>Pacheco,</em> Chapter 5: pp. 225-239 (start with &sect;5.5.1 "Caveats"  and read through the end of &sect;5.7.3); pp 251-262.
+</li>
+<li> <em>Pacheco,</em> Chapter 2: pp. 58-65.
+</li>
+</ul>
+<li> <a href="http://cseweb.ucsd.edu/users/baden/Doc/openmp.html">
+Resources for OpenMP</a> (including tutorials)
+<li>
+<a href="http://dl.acm.org/citation.cfm?id=370403">
+Tiling Optimizations for 3D Scientific Computations</a>,
+G. Rivera and C.-W. Tseng. 
+<em>Proc. SC '00,</em> Dallas, TX, November 2000.
+
+</ul>
+</tr>
+</td>
+</table>
+<br/>
+
+
+<div class="TabLong">
+<b>Lecture 5, 1/24/12 (Tue):</b>  Performance programming  of stencil methods,
+Vectorization (SIMD and SSE), GPU architecture
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec05.pdf">Lecture slides</a> 
+<li> <span class="note">Programming Lab #1 Due at 9pm</span>
+<li> <a href="../HW/A2/index.html">Programming Lab #2</a> (due Fri. 2/10/12)
+<li><b>Today's reading:</b>
+<ul>
+    <li><a href="http://drdobbs.com/cpp/184401611">Programming Guidelines for Vectorizing C/C++ Compilers</a>, A. Bik et al. <em>Dr. Dobb&#8217;s Journal</em>, 2/1/03. </li>
+		<li><a href="http://www.tommesani.com/SSE.html">Intel SSE</a> 
+		(The first page is sufficient but  you can drill down for more details)
+		</li>
+<li> <a href="http://www.acmqueue.com/modules.php?name=Content&pa=showpage&pid=532">Scalable Parallel Programming with CUDA</a>, J. Nickolls et al.,
+    <em>ACM Queue</em>, 6(2):40-53, March/April 2008. <em>Read only through
+		page 48</em> </li>
+</li>
+</ul>
+<li> To dig deeper (optional)
+<ul>
+<li> Vectorization</li>
+<ul>
+		<li><a
+		href="http://software.intel.com/sites/products/documentation/hpc/composerxe/en-us/cpp/lin/optaps/common/optaps_vec_par.htm">Vectorization
+		and Loops</a>, Intel C++ Compiler XE 12.0 User and Reference Guides,
+		Document No. 323273-120U.
+		<li><a href="http://developer.apple.com/hardwaredrivers/ve/sse.html">SSE Performance Programming</a> (developer.apple.com)
+		<li><a href="http://hpc.sourceforge.net/">HPC Mac OS X</a>(How to obtain software
+		and documentation)
+    <li><a href="http://www.springerlink.com/content/9bcj0b6ycu5jcej4/">Automatic Intra-Register Vectorization for the Intel® Architecture</a>, A. Bik et al., <em>Int. J. of Parallel Programming</em>, vol 30, issue 2, pp 65-98 (2002).  &nbsp; &nbsp; &nbsp; &nbsp; <a href="http://dx.doi.org/10.1023/A:1014230429447">DOI</a></li>
+    <li><a href="http://en.wikipedia.org/wiki/Automatic_vectorization">Vectorization</a> (wikipedia) </li>
+    <li> <a href="http://en.wikipedia.org/wiki/Streaming_SIMD_Extensions"> Streaming SIMD Extensions</a> (Wikipedia) </li>
+</ul>
+
+<li> GPUs
+<ul>
+    <li><a href="http://en.wikipedia.org/wiki/CUDA">Wikipedia article on CUDA</a>.
+This  is a handy reference that desribes the different device capabilities.</li>
+    <li><a href="http://www.ddj.com/hpc-high-performance-computing/207402986">CUDA Supercomputing for the Masses</a>, by Rob Farber, part II of a 20-part series.</li>
+</ul>
+</ul>
+</ul>
+</tr>
+</td>
+</table>
+<br/>
+
+<div class="TabLong">
+<b>Lecture 6, 1/26/12 (Thu):</b>
+Programming with CUDA
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec06.pdf">Lecture slides</a>  
+<span class="note">Posted</span>
+</li>
+<li><b>Today's reading:</b>
+<ul>
+<li>
+<em>Programming Massively Parallel Processors: A Hands-on
+Approach,</em> by David Kirk and Wen-mei Hwu, Morgan Kaufmann Publishers (2010).  Chapter 3 (all), Chapter 4 (59-68)</li>
+</ul>
+</tr>
+</td>
+</table>
+<br/>
+
+
+
+<div class="TabLong">
+<b>Lecture 7, 1/31/12 (Tue):</b>  Under the hood of the device
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec07.pdf">Lecture slides</a> 
+<span class="note">Posted</span>
+<li><b>Today's reading:</b>
+<ul>
+<li><em>Programming Massively Parallel Processors: A Hands-on
+Approach,</em> by David Kirk and Wen-mei Hwu, Morgan Kaufmann Publishers (2010).  Chapter 4 (71-74)</li>
+<li> "Benchmarking GPUs to tune dense linear algebra,"
+	by V. Volkov and J. Demmel.
+	<em>Proc. 2008 ACM/IEEE Conf. on Supercomputing, </em>
+	Austin, TX, Nov. 15 - 21, 2008.
+	&nbsp; &nbsp;
+	<a href="http://portal.acm.org/citation.cfm?id=1413402">PDF</a>
+	<br><b>[Read through &sect;3.6]</b> (4 pp.)
+	</br>
+	</li>
+</li>
+</ul>
+<li> To probe further (optional).
+	"<a href="http://dl.acm.org/citation.cfm?id=1373197">NVIDIA Tesla: A Unified Graphics and Computing Architecture,</a>"
+	by Erik Lindholm, John Nickolls, Stuart Oberman, and John Montrym.
+	<em>
+	IEEE Micro</em> <b>28</b>(2):39-255, March 2008, <a href="http://dx.doi.org/10.1109/MM.2008.3">DOI</a>
+	[This paper is a little outdated but it discusses warp scheduling]
+	</li>
+</ul>
+</ul>
+</tr>
+</td>
+</table>
+<br/>
+
+<div class="TabLong">
+<b>Lecture 8, 2/2/12 (Thu):</b>
+Matrix Multiplication,
+Using shared memory
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec08.pdf">Lecture slides</a>  
+<span class="note">Posted</span>
+</li>
+<li><b>Today's reading:</b>
+<ul>
+<li>
+<em>Programming Massively Parallel Processors: A Hands-on
+Approach,</em> by David Kirk and Wen-mei Hwu, Morgan Kaufmann Publishers (2010).  Chapter 5 (all). </li>
+</ul>
+</tr>
+</td>
+</table>
+<br/>
+
+<div class="TabLong">
+<b>Lecture 9, 2/3/12 (Friday, Room 1202):</b>
+Performance programming
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec09.pdf">Lecture slides</a>  
+<span class="note">Posted</span>
+</li>
+<li><b>Today's reading:</b>
+<ul>
+<li>
+<em>Programming Massively Parallel Processors: A Hands-on
+Approach,</em> by David Kirk and Wen-mei Hwu, Morgan Kaufmann Publishers (2010).  Chapter 6 (all). </li>
+<li> Read, through section 5
+ "Benchmarking GPUs to tune dense linear algebra,"
+	by V. Volkov and J. Demmel.
+	<em>Proc. 2008 ACM/IEEE Conf. on Supercomputing, </em>
+	Austin, TX, Nov. 15 - 21, 2008.
+	&nbsp; &nbsp;
+	<a href="http://portal.acm.org/citation.cfm?id=1413402">PDF</a>
+</ul>
+<li><a
+href="http://developer.download.nvidia.com/compute/cuda/1_1/Website/projects/reduction/doc/reduction.pdf">Presentation on Reduction</a> (NVIDIA Developer)
+</ul>
+</tr>
+</td>
+</table>
+<br/>
+
+
+
+<div class="TabLong">
+<b>Lecture 10, 2/7/12 (Tuesday):</b>
+Floating Point, GPUs in context
+</div>
+
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec10.pdf">Lecture slides</a>
+<span class="note">Posted</span>
+</li>
+<li><b>Today's reading:</b>
+<ul>
+<li>
+<em>Programming Massively Parallel Processors: A Hands-on
+Approach,</em> by David Kirk and Wen-mei Hwu, Morgan Kaufmann Publishers (2010).  Chapter 7 (all). </li>
+<li>
+<a href="http://portal.acm.org/citation.cfm?id=1816021">
+Debunking the 100X GPU vs. CPU myth: an evaluation of throughput computing on
+CPU and GPU</a>, by Victor W. Lee et al., ISCA &#8217;10.
+<li>
+<a
+href="http://blogs.nvidia.com/ntersect/2010/06/gpus-are-only-up-to-14-times-faster-than-cpus-says-intel.html">Nvidia&#8217;s
+blog response</a>
+</li>
+</ul>
+
+<br/>
+<li>To read further about IEEE Floating Point Arithmetic </li>
+<ul>
+<li>
+<a href="http://www.cs.berkeley.edu/~wkahan/Mindless.pdf" class="external text" rel="nofollow">How Futile are Mindless Assessments of Roundoff in Floating-Point Computation</a>, W. Kahan. Professor Kahan was the leading force behind the IEEE standard, and he later  received the <a href="http://awards.acm.org/homepage.cfm?srt=all&awd=140">A. M. Turing Award</a> (in <a href="http://awards.acm.org/citation.cfm?id=1023746&srt=all&aw=140&ao=AMTURING&yr=1989">1989</a>).
+</li>
+<li><a href="http://grouper.ieee.org/groups/754/">IEEE 754: Standard for Binary
+Floating-Point Arithmetic</a>, a web page with more resources.
+</li>
+<li> <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4610935"> 754-2008 IEEE Standard for Floating-Point Arithmetic</a>, 55 pages (2008))
+</li>
+</ul>
+</li>
+</ul>
+</tr>
+</td>
+</table>
+<br/>
+
+
+<div class="TabLong">
+<b>Lecture 11, 2/9/12 (Thursday):</b>
+Parallel Programming Languages:
+Cilk and UPC
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec11.pdf">Lecture slides</a>  
+<span class="note">Posted</span>
+</li>
+<li><b>Today's reading:</b>
+<ul>
+<li> M. Frigo, C. E. Leiserson, and K. H. Randall.
+"The implementation of the Cilk-5 multithreaded language."
+<em>SIGPLAN Notices</em> 33(5):212-223 (May. 1998).  &nbsp; &nbsp; <a href= "http://portal.acm.org/citation.cfm?doid=277652.277725">DOI</a>
+(Also see <a href="http://bradley.csail.mit.edu/~bradley/hpcc06/">HPCC06 Challenge Class 2  in Cilk</a>)
+<li><a href="http://software.intel.com/file/23369">
+How to Survive the Multicore Software Revolution (or at Least Survive the
+Hype</a>, Charles Leiserson and Ilya Mirman, CILK Arts (Intel web site,
+optional)
+<li>
+<a href="http://upc.wikinet.org/w/images/upc/uploads/d/d4/UPC-Manual-1.2.pdf">
+UPC Manual v1.2</a>, by 
+S&eacute;bastien Chauvin, et al., May 2005: pp. 5-15, 19-29, 32-33, 71-74.
+<br/>
+<p>
+There is no definitive UPC paper.
+For more information about UPC, look
+over some of the presentations from the
+  <a href="http://upc.wikinet.org/wiki/Language_Tutorials">Language Tutorials</a> page in the
+  <a href="http://upc.wikinet.org/wiki/Main_Page">UPC Wiki</a>
+	or a nice set of <a href="http://www.upc.mtu.edu/tutorials.html">tutorials</a>) at the <a href="http://www.upc.mtu.edu/tutorials.html">Michigan Tech UPC web site</a>)</li>
+	</p>
+
+<LI>For Reference</li>
+  <ul>
+  <li> <a href="http://upc.lbl.gov/">Berkeley UPC web site</a> </li>
+  <li><a href="http://upc.gwu.edu/">UPC community web site</a> </li>
+</ul>
+
+	</ul>
+
+<li><b>For reference:</b> <a href="http://supertech.csail.mit.edu/cilk/">Cilk web page</a>
+</ul>
+
+</tr>
+</td>
+</table>
+<br/>
+
+<div class="TabLong">
+<b>Lecture 12, 2/14/12 (Tuesday):</b>
+Message passing; introduction to MPI.
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec12.pdf">Lecture slides</a>  
+<span class="note">Posted</span>
+</li>
+<li><b>Today's reading.</b>
+<em>Pacheco</em>,  Chapter 6: pp. 83-94.
+</ul>
+</tr>
+</td>
+</table>
+<br/>
+
+<div class="TabLong">
+<b>Lecture 13, 2/16/12 (Thursday):</b>
+A first MPI application, Cannon&#8217;s Matrix Multiplication Algorithm,
+basic collectives, managing communicators.
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec13.pdf">Lecture slides</a> 
+<span class="note">Posted</span>
+</li>
+<li><b>Today's reading:</b>
+<ul>
+<li>
+<em>Pacheco</em>.  Chapter 2: pp. 37-40; Chapter 3: pp. 97-109.
+</li>
+<li> <em>A User&#8217;s Guide to MPI</em>, by Peter Pacheco, pp. 29-36. &nbsp;
+ &nbsp;
+<a href="http://www-cse.ucsd.edu/~baden/Doc/docs/MPI_Guide.pdf"><b>pdf</b></a>
+<br>
+(Or from from Peter Pacheco&#8217;s <em>Parallel Programming with MPI.</em> pp. 111-121).
+	 </li>
+</li>
+<li> <a
+href="http://www.cs.berkeley.edu/~demmel/cs267/lecture11/lecture11.html">Lectures Notes on Parallel Matrix Multiplication</a>, by Jim Demmel, UC Berkeley.
+Read the <b>Introduction</b> and <b>Cannon&#8217;s algorithm on a 2D mesh</b>.
+</ul>
+
+<li> <b>Parallel print function.</b>
+PPF is the Parallel Tools consortium's parallel print facility.
+For more information, consult the
+<a href="https://computation.llnl.gov/casc/ppf/">PPF web page</a>.
+The software is installed on Triton in <tt> $(PUB)/lib/PPF</tt>,
+examples in <tt>$(PUB)/examples/PPF</tt>
+(See the 
+<tt>README</tt> file for important  information about using the software).
+</li>
+<li> More about the trapezoidal rule</li>
+<ul>
+<li>
+<a href="http://en.wikipedia.org/wiki/Trapezoidal_rule">Discussion</a>
+</li>
+<li>
+<a href="http://www.csse.monash.edu.au/~lloyd/tildeAlgDS/Numerical/Integration">
+Applet</a>
+</li>
+</ul>
+
+</tr>
+</td>
+</table>
+
+<div class="TabLong">
+<b>Lecture 14, <span class="note">2/17/12 (Friday):</span></b>
+Advanced collectives, SUMMA Matrix Multiplication Algorithm.
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec14.pdf">Lecture slides</a>   
+<span class="note">Posted</span>
+</li>
+<li><b>Today's reading:</b>
+<ul>
+<li> <em>Pacheco</em>, pp. 110-116.
+</li>
+<li> R. Van de Geign and J. Watts, <a href="http://onlinelibrary.wiley.com/doi/10.1002/(SICI)1096-9128(199704)9:4<255::AID-CPE250>3.0.CO;2-2/abstract">
+SUMMA: Scalable universal matrix multiplication algorithm</a>,
+<em>Concurrency: Practice and Experience,</em> 9:255-74 (1997)
+</li>
+</ul>
+<li>Background on collective communication implementations - to probe deeper
+</li>
+<ul>
+<li> <a href="http://www.mcs.anl.gov/~thakur/papers/ijhpca-coll.pdf"> Optimization of Collective Communication Operations in MPICH</a>, by R. Thakur, R. Rabenseifner, and W. Gropp.  <em>Int&#8217;l. J.  of High Performance Computing Applications,</em> (19)1:49-66, Spring 2005. Under the hood of MPICH
+collectives.
+</li>
+<li>
+Make Barnett et al.,
+<a href="http://portal.acm.org/citation.cfm?id=602794&dl=ACM&coll=DL&CFID=17654400&CFTOKEN=43028295">
+Building a high-performance collective communication library</a>,
+<em>Proc. Supercomputing '94,</em> pp 107-116.
+<em>Discusses van de Geijn's linear
+time broadcast algorithm for long messages.</em>
+</li>
+<li> 
+Detailed discussions about MPI collective communication (For Reference). <a
+href="http://www.netlib.org/utk/papers/mpi-book/node91.html">MPI: The Complete
+Reference</a>, by Marc Snir et al.
+</li>
+</ul>
+</ul>
+
+</tr>
+</td>
+</table>
+
+<div class="TabLong">
+<b>Lecture 15:</b> 2/23/12 (Thursday):</b>
+Communication avoiding matrix multiplication; stencil methods;
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec15.pdf">Lecture slides</a> 
+<span class="note">Posted</span>
+</li>
+<li><b>Today's reading:</b>
+<ul>
+<li>
+Edgar Solomonik and James Demmel,
+<a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2011/EECS-2011-10.pdf">
+Communication-optimal parallel 2.5D matrix multiplication and LU factorization
+algorithms</a>,
+Tech Report <i>UCB/EECS-2011-10</i>, February 2011.
+<b>Skip LU factorization (&sect;4-6, and parts of &sect;7-8)</b>
+</li>
+<li>Modeling the performance of an iterative method <a href="http://cseweb.ucsd.edu/classes/fa09/cse260/Lectures/perfModel.pdf"><b>pdf</b></a> </li>
+
+  </ul>
+</li>
+<li>To probe further into Communication-avoiding algorithms,
+visit the
+<a href="http://bebop.cs.berkeley.edu/#pubs">Bebop web site</a>
+(UC Berkeley) or Jim Demmel&#8217;s 
+<a href="http://www.cs.berkeley.edu/~odedsc/CS294">Course on Communication-Avoiding algorithms</a>
+ 
+</ul>
+</ul>
+</tr>
+</td>
+</table>
+<br/>
+
+<div class="TabLong">
+<b>Lecture 16:</b> 2/28/12 (Tuesday):</b>
+NUMA architectures and programming
+<a name="current">&nbsp;</a>
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec16.pdf">Lecture slides</a> 
+<span class="note">Posted</span>
+</li>
+<li><b>Today's reading:</b>
+<ul>
+<li> "The SGI Origin: a ccNUMA highly scalable server," J. Laudon and D. Lenoski, <em>Proc. 24th ISCA</em>, pp 241-251, 1997.  <a href="http://doi.acm.org/10.1145/264107.264206">DOI</a></li>
+<li><a href="../../../wi08/cse260/Lectures/Lec09/SharedMem.html">Notes on shared memory</a></li>
+<li> For background material, see
+Hennessy and Patterson, <em>Computer Architecture A Quantitative Approach,</em> 4th Ed.,
+Morgan Kaufmann: Chapter 4, esp. &sect;4.1, &sect;4.4, &sect; 4.6,
+on reserve in the S&E library.</li>
+  </ul>
+</li>
+<li>Supplemental reading
+<ul>
+
+<li> <a
+href="http://techpubs.sgi.com/library/tpl/cgi-bin/browse.cgi?coll=0650&db=bks&cmd=toc&pth=/SGI_Developer/OrOn2_PfTune">
+Origin 2000 and Onyx2 Performance Tuning and Optimization Guide</a>,
+Document No. 007-3430-003, SGI, 2001.</li>
+<ul>
+<li>
+Chapter 1. Understanding SN0 Architecture</li>
+<li>
+Chapter 2. SN0 Memory Management</li>
+<li>Chapter 8. Tuning for Parallel Processing: read sections
+"Tuning Parallel Code for SN0," "Scalability and Data Placement,"
+"Using Data Distribution Directives," but only read through "Understanding the
+AFFINITY clases for threads (Example 8-11). There is a conventient
+table of contents at the beginning of the section.</li>
+</ul>
+<li><a href="http://www.cs.berkeley.edu/~culler/cs258-s99/lec22.ppt">
+Presentation Materials on the Origin 2000</a> (David Culler, UC Berkeley)
+</li>
+ 
+</ul>
+</ul>
+</tr>
+</td>
+</table>
+
+<div class="TabLong">
+<b>Lecture 17:</b> 3/1/12 (Thursday):</b>
+Reflections on Performance
+<a name="current">&nbsp;</a>
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+    <li> No formal lecture slides; class discussion
+    </li>
+    <li><b>Today's reading:</b>
+        <ul>
+        <li><a href="http://crd-legacy.lbl.gov/~dhbailey/dhbpapers/twelve-ways.pdf">Twelve Ways to Fool the Masses When Giving. Performance Results on Parallel Computers.</a>, David H. Bailey, June 11, 1991.
+				<li>
+				<a
+				href="http://www.hpcwire.com/hpcwire/2011-12-13/ten_ways_to_fool_the_masses_when_giving_performance_results_on_gpus.html">Ten Ways to Fool the Masses When Giving Performance Results on GPUs</a>, Scott Pakin, <em>HPCWire</em>.
+
+        <li><a href="http://crd.lbl.gov/~dhbailey/dhbpapers/mislead.pdf">Misleading Performance Reporting in the Supercomputing Field</a>, by David H.  Bailey. <em>Scientific Programming,</em> vol. 1., No. 2 (Winter 1992), pp. 141-151.</li>
+
+        </ul>
+    </li>
+ 
+</ul>
+</tr>
+</td>
+</table>
+
+<br/>
+<div class="TabLong">
+<b>Lectures 18 &amp; 19, </b>  Progress report presentations
+</div>
+<br/>
+<div class="Tab">
+<b>Lecture 20, 3/13/12 (Tuesday): Exascale computing </b>
+</div>
+<table class="boxed">
+<tr>
+<td>
+<ul>
+<li> <a href="./Lec20.pdf">Lecture slides</a> 
+<span class="note">Posted</span>
+<li><b>Background materials:</b>
+<ul>
+<li>
+<a href="http://users.ece.gatech.edu/~mrichard/ExascaleComputingStudyReports/exascale_final_report_100208.pdf">
+ExaScale Computing Study: Technology Challenges in Achieving Exascale
+Systems</a>, Peter Kogge et al., Sept 28, 2008.
+</li>
+<li>
+<a href="http://www.sdsc.edu/~allans/scidacsoftware.pdf">
+Software Challenges in Extreme Scale Systems, V. Sarkar et al, 
+</a>
+J. of Physics Conf. Series Vol. 180, 2009.
+</li>
+<li>
+<a
+href="http://exascaleresearch.labworks.org/ascrOct2011/ascr/index/materials">
+Advanced Archtiectures and Critical Technoglogies for Exascale Computing</a>.
+US Dept of Energy, 2011. <i>Many presentations.</i> Start with
+<a
+href="http://exascaleresearch.labworks.org/ascrOct2011/uploads/dataforms/PRES_DOE_DOE%20Exascale%20Computing_111011.pdf">William Harrod&#8217;s Overview</a>
+</li>
+<li><a href="http://www.lanl.gov/orgs/hpc/salishan/salishan2011/3moore.pdf">
+Data Processing in Exascale-class computer systems</a>,
+Chuck Moore, April 2011.
+</li>
+<li><a href="http://www.exascale.org/iesp/Main_Page">Exascale.org</a>
+</li>
+<li><a href="http://www.zettaflops.org/">Zetta Flops</a>.
+The next frontier (10<sup>21</sup> flops/sec).
+<li>
+<a href="http://www.scc.acad.bg/documentation/team.pdf">Overview of the
+IBM Blue Gene/P project</a>, <em>IBM J. of Research and Development</em>, Vol.
+52, Isssue 1/2, January 2008.  </li>
+<li> Also see <a href="http://en.wikipedia.org/wiki/Blue_Gene">
+Wikipedia article on Blue Gene</a>. Gives a longer term history of the project.
+</li>
+<li><a
+href="http://workshops.alcf.anl.gov/gs10/files/2010/01/Morozov-BlueGeneP-Architecture.pdf">Blue GeneP Architecture</a> (presentation)
+</ul>
+</ul>
+
+</tr>
+</td>
+</table>
+
+<br/>
+
+
+
+//-->
+</body>
+</html>
+
+<!--
 <p> Note: Much of the materials taken from various online course websites </p>
 
-<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'dmacssite.github.com', 'user' : 1040468, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-09-01', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www4.clustrmaps.com/user/024fe054"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/dmacssite.github.com-thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
+<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'parallelcomp.github.com', 'user' : 1040468, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-09-01', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www4.clustrmaps.com/user/024fe054"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/dmacssite.github.com-thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
 
 </body>
 </html>
+//-->
